@@ -70,12 +70,10 @@ console.log(result);
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name1="john";
 let name2="John";
-console.log (!(name1 === name2));
+//console.log (!(name1 === name2));
 if (!(name1 === name2))
 {
-  let name4= name1.toLocaleLowerCase();
-  let name3= name2.toLocaleLowerCase();
-  console.log("le due stringhe erano diverse."+" "+ "ora invece", name4===name3);
+  console.log("le due stringhe erano diverse."+ " " + "ora invece", name1===name2.toLocaleLowerCase());
 }
 else
 {
