@@ -77,6 +77,6 @@ if (!(name1 === name2))
 }
 else
 {
-  console.log("le due stringhe sono uguali", name1===name2);
+  console.log("le due stringhe sono uguali" + " " + (name1===name2));
 }
 
